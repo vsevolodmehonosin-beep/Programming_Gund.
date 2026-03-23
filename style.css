@@ -1,0 +1,14 @@
+body{
+    background-color: #1b1b1b;
+    color: #bdbdbd;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    color: bisque;
+}
