@@ -1,14 +1,30 @@
 body{
-    background-color: #1b1b1b;
-    color: #bdbdbd;
+    background-color: #191919;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 2;
+    padding: 2;
+}
+
+header {
+    margin: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #553A41;
+}
+
+header a {
+    margin: 40;
+    text-decoration: none;
+    color: #191919;
+    font-size: 24px;
+    margin-left: 20px;
 }
 
 .text {
     font-size: 18px;
     line-height: 1.6;
     margin: 20px;
-    color: bisque;
+    color: #E6E8E6;
 }
