@@ -28,3 +28,33 @@ header a {
     margin: 20px;
     color: #E6E8E6;
 }
+
+h1 {
+    color: #E6E8E6;
+    margin: 22px;
+}
+
+p {
+    color: #E6E8E6;
+    margin: 18px;
+}
+
+section {
+    background: url('background1.png') no-repeat center center / cover;
+    background-color: #553A41;
+    padding: 40px 30px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1200px;
+    min-height: 520px;
+}
+
+.color_inverter {
+    color: #000000;
+}
+
+.uzman{
+    font-size: 22px;
+    margin: 20px;
+    text-decoration: bold;
+}
