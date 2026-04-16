@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #191919;
     font-family: Arial, sans-serif;
     margin: 2;
@@ -43,6 +43,7 @@ section {
     background-color: #553A41;
     border-radius: 8px;
     margin: 20px auto;
+    padding: 20px;
 }
 
 .section1 {
@@ -64,7 +65,7 @@ section {
     text-shadow: 0 0 15px #ffffff, 0 0 5px #ffffff;
 }
 
-.uzman{
+.uzman {
     font-size: 22px;
     margin: 20px;
     text-decoration: bold;
@@ -83,7 +84,7 @@ section {
     align-self: center;
 }
 
-.line{
+.line {
     border-top: 3px solid #BB7E8C;
     border-radius: 5px;
     margin: 20px 0;
@@ -122,11 +123,37 @@ h1 {
     object-fit: cover;
 }
 
-section {
+footer {
     background-color: #553A41;
     border-radius: 8px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 30px;
+    color: #E6E8E6;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer_info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #BB7E8C;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer_bottom h3 {
+    margin: 0;
 }
 
 h2 {
@@ -138,4 +165,65 @@ h2 {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+}
+
+.search_filter_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #553A41;
+}
+
+.search_input {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid #BB7E8C;
+    background-color: #E6E8E6;
+    color: #191919;
+    width: 250px;
+    outline: none;
+}
+
+.filter_select {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid #BB7E8C;
+    background-color: #E6E8E6;
+    color: #191919;
+    cursor: pointer;
+    outline: none;
+}
+
+.image_offer {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.image_offer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.sale_price {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+.old_price {
+    text-decoration: line-through;
+    font-size: 0.7em;
+    color: #888;
+    margin-right: 10px;
+}
+
+.sale_badge {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
 }

@@ -1,15 +1,107 @@
 <html>
-    <head>
-        <title>Code_test</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <img src="logo_shop.png" alt="Image" class="image" width="120" height="120">
-            <nav>
-                <a href="main.html">Home</a>
-                <a href="shop.html">Shop</a>
-            </nav>
-        </header>
-    </body>
+
+<head>
+    <title>Shop - Silueta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo_shop.png" alt="Image" class="image" width="120" height="120">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+        </nav>
+    </header>
+
+    <section class="search_filter_section">
+        <div class="search_container">
+            <input type="text" placeholder="Meklēt preces..." class="search_input">
+        </div>
+        <div class="filter_container">
+            <select class="filter_select">
+                <option value="">Kategorija</option>
+                <option value="kleitas">Kleitas</option>
+                <option value="apavi">Apavi</option>
+                <option value="aksesuari">Aksesuāri</option>
+            </select>
+            <select class="filter_select">
+                <option value="">Kārtot pēc</option>
+                <option value="lētākās">Lētākās vispirms</option>
+                <option value="dārgākās">Dārgākās vispirms</option>
+            </select>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="color_inverter">Mūsu preču klāsts</h1>
+        <div class="line"></div>
+
+        <div class="images">
+            <div>
+                <span class="sale_badge">SALE</span>
+                <img src="images/ar1.png" alt="Image" class="image_offer">
+            </div>
+            <img src="images/ar2.png" alt="Image" class="image_offer">
+            <img src="images/ar3.png" alt="Image" class="image_offer">
+            <div>
+                <span class="sale_badge">SALE</span>
+                <img src="images/ar4.png" alt="Image" class="image_offer">
+            </div>
+        </div>
+
+        <div class="text_displaj">
+            <p>Vakarkleita Blue</p>
+            <p>Ikdienas kleita</p>
+            <p>Svētku kleita Red</p>
+            <p>Vasaras kleita</p>
+        </div>
+
+        <div class="cena_displaj">
+            <p><span class="old_price">25€</span> <span class="sale_price">15€</span></p>
+            <p>20€</p>
+            <p>25€</p>
+            <p><span class="old_price">45€</span> <span class="sale_price">30€</span></p>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="color_inverter">Jaunie piedāvājumi</h1>
+        <div class="line"></div>
+        <div class="images">
+            <img src="images/ar5.png" alt="Image" class="image_offer">
+            <div>
+                <span class="sale_badge">NEW</span>
+                <img src="images/ar6.png" alt="Image" class="image_offer">
+            </div>
+            <img src="images/ar7.png" alt="Image" class="image_offer">
+        </div>
+        <div class="text_displaj">
+            <p>Elegants kurpes</p>
+            <p>Modernā žakete</p>
+            <p>Dizaina kleita</p>
+        </div>
+        <div class="cena_displaj">
+            <p>55€</p>
+            <p>20€</p>
+            <p>25€</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_content">
+            <div class="footer_info">
+                <p><strong>Adrese:</strong> Rīga, Brīvības iela 123</p>
+                <p><strong>Tel:</strong> +123 456 78</p>
+                <p><strong>Email:</strong> info@silueta.lv</p>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>Rīga, Brīvības iela 123</p>
+            <h3>©Style shop</h3>
+        </div>
+    </footer>
+
+</body>
+
 </html>
