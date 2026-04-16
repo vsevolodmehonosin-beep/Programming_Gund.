@@ -20,6 +20,15 @@ header a {
     color: #191919;
     font-size: 24px;
     margin-left: 20px;
+    transform: 1.3s;
+}
+
+header a:hover {
+    margin: 40;
+    text-decoration: none;
+    color: #E6E8E6;
+    font-size: 24px;
+    margin-left: 20px;
 }
 
 .text {
@@ -151,10 +160,6 @@ footer {
     padding-top: 20px;
 }
 
-.footer_bottom h3 {
-    margin: 0;
-}
-
 h2 {
     color: #E6E8E6;
     margin: 20px;
@@ -181,7 +186,6 @@ h2 {
     background-color: #E6E8E6;
     color: #191919;
     width: 250px;
-    outline: none;
 }
 
 .filter_select {
@@ -194,7 +198,6 @@ h2 {
 
 .image_offer {
     transition: transform 0.3s;
-    cursor: pointer;
 }
 
 .image_offer:hover {
@@ -209,7 +212,7 @@ h2 {
 
 .old_price {
     text-decoration: line-through;
-    font-size: 0.7em;
+    font-size: 22;
     color: #888;
     margin-right: 10px;
 }
