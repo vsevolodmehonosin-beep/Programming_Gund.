@@ -20,7 +20,7 @@ header a {
     color: #191919;
     font-size: 24px;
     margin-left: 20px;
-    transform: 1.3s;
+    transform: 0.3s;
 }
 
 header a:hover {
@@ -89,6 +89,19 @@ section {
     cursor: pointer;
     border-radius: 4px;
     margin-top: 20px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: #E6E8E6;
+    color: #191919;
+    border: none;
+    padding: 14px 24px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 16px;
     text-decoration: none;
     align-self: center;
 }
